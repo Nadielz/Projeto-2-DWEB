@@ -1,0 +1,218 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Produtos</title>
+</head>
+<body>
+    <header>
+        <nav>
+        <section>    
+                <span>Dice's</span>
+                    <ul>
+                        <li><a href="../index.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="fale.html">Fale Conosco</a></li>
+                        <li><a href="sobre.html">Sobre</a></li>
+                    </ul>
+            </section>
+        <section>
+            <ul>
+              <li><a href="login.html">Entrar</a></li>
+              <li><a href="carrinho.html">Carrinho</a></li>
+              <li><a>Github</a></li>
+            </ul>
+        </section>
+    </nav>
+    </header>
+    
+    <main>
+        <div class="container">
+            <div class="row mt-5" id="filter-buttons">
+              <div class="col-12">
+                <button class="btn mb-2 me-1 active" data-filter="all">Todos</button>
+                <button class="btn mb-2 mx-1" data-filter="Eurogames">Eurogames</button>
+                <button class="btn mb-2 mx-1" data-filter="Americano">Americano</button>
+                <button class="btn mb-2 mx-1" data-filter="Cardgame">Card Game</button>
+                <button class="btn mb-2 mx-1" data-filter="Acessorios">Acessórios</button>
+              </div>
+            </div>
+            <div class="row px-2 mt-4 gap-3" id="filterable-cards">
+              <div class="card p-0" data-name="Card Game">
+                <img src="../img/ygo-ds-dark.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 79,99</h6>
+                  <p class="card-text">Deck Estrutural: Mundo Negro</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Eurogames">
+                <img src="../img/eurogame-01.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 180,00</h6>
+                  <p class="card-text">Terra Mystica</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Card game">
+                <img src="../img/ygo-ds-fire.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 79,99</h6>
+                  <p class="card-text">Deck Estrutural: Reis de Fogo</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Americano">
+                <img src="../img/americano-01.jpeg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 130,00</h6>
+                  <p class="card-text">Dixit</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Card Game">
+                <img src="../img/ygo-ds-ice.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 79,99</h6>
+                  <p class="card-text">Deck Estrutural: Barreira de gelo</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-dado-cinza.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 30,00</h6>
+                  <p class="card-text">Kit de dados</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Americano">
+                <img src="../img/americano-02.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 145,00</h6>
+                  <p class="card-text">Jogo da vida</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-sleeve-01.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 50,00</h6>
+                  <p class="card-text">50 unidades Sleeves transparentes</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-dado-rosa.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 30,00</h6>
+                  <p class="card-text">Kit de dados</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Eurogames">
+                <img src="../img/eurogame-02.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 200,00</h6>
+                  <p class="card-text">Caverna</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Eurogames">
+                <img src="../img/eurogame-03.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 200,00</h6>
+                  <p class="card-text">Castles</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-pasta-preta.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 80,00</h6>
+                  <p class="card-text">Pasta Preta</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-pasta-rosa.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 80,00</h6>
+                  <p class="card-text">Pasta rosa</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-sleeve-ds.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 100,00</h6>
+                  <p class="card-text">Sleeve Dragon Shield</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Acessorios">
+                <img src="../img/acessorio-sleeve-02.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 60,00</h6>
+                  <p class="card-text">Sleeve 60 unidades transparentes</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Americano">
+                <img src="../img/americano-03.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 150,00</h6>
+                  <p class="card-text">WAR</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                  <div class="card p-0" data-name="Americano">
+                <img src="../img/americano-04.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 130,00</h6>
+                  <p class="card-text">Banco imobiliario</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Americano">
+                <img src="../img/americano-05.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 80,00</h6>
+                  <p class="card-text">Pacote Dama e Ludo</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Cardgame">
+                <img src="../img/ygo-ds-trap.jpg" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 79,00</h6>
+                  <p class="card-text">Deck Estrutural: Cuidado com Armadilhax</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+              <div class="card p-0" data-name="Cardgame">
+                <img src="../img/ygo-ds-og.webp" alt="img">
+                <div class="card-body">
+                  <h6 class="card-title">R$ 140,00</h6>
+                  <p class="card-text">Deck Estrural: Yugi e Kaiba</p>
+                  <button type="button" class="btn btn-primary">Comprar</button>
+                </div>
+              </div>
+  </main>
+
+    <footer>
+        <div>
+            <p>+XX (XX) XXXXX - XXXX</p>
+            <P>Rua Lorem ipsum, dolor sit - Nº XX - Lorem Ipsum - SP</P>
+            <p>Feito por Daniel Andrade</p>
+            <nav>
+                <ul>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                    <li><button></button></li>
+                </ul>
+            </nav>
+        </div>
+    </footer> 
+</body>
+</html>
