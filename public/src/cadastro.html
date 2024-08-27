@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Cadastrar</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/elementos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/e687650862.js" crossorigin="anonymous"></script>
+    <script type="module" src="../script/redirecionar.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="logo">Dice's</span>  
+                <button class="hamburguer"></button>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="fale.html">Fale Conosco</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html"><span class="material-symbols-outlined">account_circle</span></a></li>
+                    <li><a href="carrinho.html"><span class="material-symbols-outlined">shopping_cart</span></a></li>
+                    <li><a href="https://github.com/Nadielz/Projeto-2-DWEB/tree/master"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-header-login">
+            <div class="header-login">
+                <h1>Criar uma conta</h1>
+            </div>
+        </section>
+
+        <section class="container-cadastro">
+            <form class="form-cadastro" id="meuForm">
+                <div class="campo-input-login">
+                    <input type="text" name="nome" id="nome" placeholder="Nome Completo" autocomplete="name" required> 
+                </div>
+                <div class="campo-input-login">
+                    <input type="text" name="cpf" id="cpf" placeholder="CPF" autocomplete="cpf" required pattern="[0-9]{11}">
+                </div>
+                <div class="campo-input-login">
+                    <select id="sexo" required>
+                        <option value="">Sexo</option>
+                        <option value="Masculino">Masculino</option>
+                        <option value="Feminino">Feminino</option>
+                        <option value="indefinido">Indefinido</option>
+                    </select>
+                </div>
+                <div class="campo-input-login">
+                    <input type="text" name="celular" id="celular" placeholder="Celular" autocomplete="tel" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="email" name="email" id="email" placeholder="Email" autocomplete="email" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="password" name="senha" id="senha" placeholder="Senha" autocomplete="current-password" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="text" name="rua" id="rua" placeholder="Rua" autocomplete="address-line1" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="text" name="bairro" id="bairro" placeholder="Bairro" autocomplete="address-level2" required>
+                </div>
+                <div class="campo-input-login">
+                    <input type="text" name="cidade" id="cidade" placeholder="Cidade" autocomplete="address-level1" required>
+                </div>
+                <button class="enviar-fale" type="submit" id="btGravar">Cadastrar</button>
+            </form>
+        </section>
+    </main>
+    
+    <script type="module" src="../script/firebase-config.js"></script>
+    <script type="module" src="../script/cadastro.js"></script>
+    <script type="module" src="../script/auth.js"></script>
+
+</body>
+</html>

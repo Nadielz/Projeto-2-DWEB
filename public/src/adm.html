@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Área do adminsitrador</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/elementos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/e687650862.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="../css/catalogo.css">
+    <script type="module" src="../script/redirecionar.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="logo">Dice's</span>  
+                <button class="hamburguer"></button>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="fale.html">Fale Conosco</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html"><span class="material-symbols-outlined">
+                        account_circle
+                        </span></a></li>
+                    <li><a href="carrinho.html"><span class="material-symbols-outlined">
+                        shopping_cart
+                        </span></a></li>
+                    <li><a href="https://github.com/Nadielz/Projeto-2-DWEB/tree/master"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="container-add-adm">
+            <h2 class="titulo-add-adm">Adicionar Produto</h2>
+            <form id="add-product-form" class="campo-input">
+                <label for="nome" >Nome:</label>
+                <input type="text" id="nome" required >
+                <label for="categoria">Categoria:</label>
+                <input type="number" id="categoria" required >
+                <label for="preco">Preço:</label>
+                <input type="number" id="preco" step="0.01" required >
+                <label for="imagem">Imagem:</label>
+                <input type="file" id="imagem" accept="image/*" required >
+                <button type="submit" class="enviar-fale">Adicionar Produto</button>
+            </form>
+        </section>
+
+        <section class="container-buscar-adm">
+            <h2 class="titulo-add-adm">Buscar Produto</h2>
+            <div class="container-resultado">
+                <div class="separar">
+                <form id="search-product-form" class="campo-input">
+                    <label for="search-nome">Nome do Produto:</label>
+                    <input type="text" id="search-nome" required>
+                    <button type="submit" class="enviar-fale">Buscar Produto</button>
+                </form>
+                </div>
+
+                <div id="product-details" class="separar"></div>
+
+            </div>    
+         </section>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div>
+            <p>+55 (11) 4321-4532</p>
+            <P>Rua Lorem dolor sit - Nº 32 - Lorem Ipsum - SP</P>
+            <p>Feito por Daniel Andrade</p>
+            </div>
+        </div>
+    </footer> 
+    <script type="module" src="../script/crud.js"></script>
+    <script src="../script/script.js"></script>
+</body>
+</html>

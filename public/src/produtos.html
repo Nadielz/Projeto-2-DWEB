@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Produtos</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/elementos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/e687650862.js" crossorigin="anonymous"></script>
+    <script type="module" src="../script/redirecionar.js"></script>
+    <link rel="stylesheet" type="text/css" href="../css/catalogo.css">
+</head>
+<body>
+  <header>
+    <nav class="nav">
+        <span class="logo">Dice's</span>  
+            <button class="hamburguer"></button>
+            <ul class="menu">
+                <li><a href="../index.html">Home</a></li>
+                <li><a href="https://soggy.cat/">Produtos</a></li>
+                <li><a href="fale.html">Fale Conosco</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="login.html"><span class="material-symbols-outlined">
+                    account_circle
+                    </span></a></li>
+                <li><a href="carrinho.html"><span class="material-symbols-outlined">
+                    shopping_cart
+                    </span></a></li>
+                <li><a href="https://github.com/Nadielz/Projeto-2-DWEB/tree/master"><i class="fa-brands fa-github"></i></a></li>
+            </ul>
+    </nav>
+</header>
+  
+<main>
+  <section class="hero-background">
+  <div class="hero-catalogo">
+    <h1>Confira abaixo nossos produtos!</h1>
+    <div id="filtro-categorias">
+      <button data-categoria="todos" class="btn">Todos</button>
+      <button data-categoria="1" class="btn">Yu-Gi-Oh!</button>
+      <button data-categoria="2" class="btn">Acessórios</button>
+      <button data-categoria="3" class="btn">Europeu</button>
+      <button data-categoria="4" class="btn">Americano</button>
+      <button id="ordenar-alfabetico" class="btn">Ordem Alfabética</button>
+      <button id="ordenar-preco-crescente" class="btn">Preço Crescente</button>
+  </div>
+  </div>
+  </section>
+
+  <div class="container-produtos">
+    <div id="galeria-produtos" class="galeria-produtos">
+
+    </div>
+  </div>
+
+</main>
+<footer>
+  <div class="container-footer">
+      <div>
+      <p>+55 (11) 4321-4532</p>
+      <P>Rua Lorem dolor sit - Nº 32 - Lorem Ipsum - SP</P>
+      <p>Feito por Daniel Andrade</p>
+      </div>
+  </div>
+</footer> 
+<script type="module" src="../script/catalogo.js"></script>
+</body>
+</html>

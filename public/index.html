@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="img/favicon.png">
+    <title>Página Inicial</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/elementos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" >
+    <script src="https://kit.fontawesome.com/e687650862.js" crossorigin="anonymous"></script>
+    <script type="module" src="script/redirecionar.js"></script>
+    
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="logo">Dice's</span>  
+                <button class="hamburguer"></button>
+                <ul class="menu">
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="src/produtos.html">Produtos</a></li>
+                    <li><a href="src/fale.html">Fale Conosco</a></li>
+                    <li><a href="src/sobre.html">Sobre</a></li>
+                    <li><a href="src/login.html"><span class="material-symbols-outlined">
+                        account_circle
+                        </span></a></li>
+                    <li><a href="src/carrinho.html"><span class="material-symbols-outlined">
+                        shopping_cart
+                        </span></a></li>
+                    <li><a href="https://github.com/Nadielz/Projeto-2-DWEB/tree/master"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="hero-background">
+            <section class="hero-inicio">
+                <header class="hero-conteudo">
+                    <span class="destaque marrom">Bem-vindo!</span>
+                    <h1>Encontre o jogo perfeito</h1>
+                    <hr>
+                    <h2 class="hero-subtitulo">Explore dezenas de variações de jogos de tabuleiros para jogar com seus amigos</h2>
+                </header>
+                <div class="hero-imagens-container">
+                    <figure><img src="img/hero-1.jpg" alt="imagem"></figure>
+                    <figure><img src="img/hero-02.jpg" alt="imagem"></figure>
+                    <figure><img src="img/hero-03.webp" alt="imagem"></figure>
+                    <figure><img src="img/hero-04.jpg" alt="imagem"></figure>
+                    <figure><img src="img/hero-05.jpg" alt="imagem"></figure>
+                    <figure><img src="img/explicacao-europeu.jpg" alt="imagem"></figure>
+                    <figure><img src="img/explicacao-americano.png" alt="imagem"></figure>
+                    <figure><img src="img/explicacao-antigos.webp" alt="imagem"></figure>
+                </div>
+            </section>
+        </div>
+
+        <section class="jogos">
+            <header class="jogos-header">
+                <span class="destaque marrom">Jogos <i class="fa-sharp fa-solid fa-fire"></i></span>
+                <h2 class="jogos-titulo">Conheça os principais gêneros de jogos de tabuleiro</h2>
+                <p class="jogos-subtitulo">Os jogos são divididos em vários sub-gêneros, confira abaixo os principais.</p>
+            </header>
+
+            <div class="jogos-card-container">
+
+                <div class="jogos-card">
+
+                    <header class="jogos-card-header">
+                        <div class="jogos-card-header-detalhe">
+                            <span class="destaque marrom">Competitivo</span>
+                            <h3 class="jogos-card-titulos">Trading Card Game (TCG)</h3>
+                        </div>
+                        <p class="destaque cinza">Para amantes de competição!</p>
+                    </header>
+                    <p class="jogos-card-descricao">Jogos de cartas colecionáveis com ênfase em competições e torneios</p>
+                        <div>
+                            <button class="conhecer"><a href="src/tcg.html">Ver sobre!</a></button>
+                        </div>
+                    </div>
+                    
+                    <div class="jogos-card">
+                        <header class="jogos-card-header">
+                            <div class="jogos-card-header-detalhe">
+                                <span class="destaque marrom">Perfeito para a família</span>
+                                <h3 class="jogos-card-titulos">Estilo Americano</h3>
+                            </div>
+                            <p class="destaque cinza">Casual e femiliar</p>
+                        </header>
+                        <p class="jogos-card-descricao">O gênero mais conhecido de jogos de tabuleiros, você com certeza conhece inumeros jogos!</p>
+                            <div>
+                                <button class="conhecer"><a href="src/americano.html">Vamos ler sobre!</a></button>
+                            </div>
+                    </div>
+               
+                    <div class ="jogos-card">
+                        <header class="jogos-card-header">
+                            <div class="jogos-card-header-detalhe">
+                                <span class="destaque marrom">Passa-tempo</span>
+                                <h3 class="jogos-card-titulos">Estilo europeu</h3>
+                            </div>
+                            <p class="destaque cinza">São simples e diretos</p>
+                        </header>
+                        <p class="jogos-card-descricao">Jogos com poucas regras e sem fator sorte. Simples de entender e fáceis de jogar</p>
+                            <div>
+                                <button class="conhecer"><a href="src/europeu.html">Quero conhecer mais!</a></button>
+                            </div>
+                    </div>
+                
+                <div class ="jogos-card">
+                    <header class="jogos-card-header">
+                        <div class="jogos-card-header-detalhe">
+                            <span class="destaque marrom">Em alta </span>
+                            <h3 class="jogos-card-titulos">Antigos</h3>
+                        </div>
+                        <p class="destaque cinza">Casual e competitivo</p>
+                    </header>
+                    <p class="jogos-card-descricao">Primeiros jogos de tabuleiros criados. São tradicionais e muito famosos!</p>
+                        <div>
+                            <button class="conhecer"><a href="src/antigos.html">Velho é bom! Ler sobre</a></button>
+                        </div>
+                </div>
+
+            </div>    
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container-footer">
+            <div>
+            <p>+55 (11) 4321-4532</p>
+            <P>Rua Lorem dolor sit - Nº 32 - Lorem Ipsum - SP</P>
+            <p>Feito por Daniel Andrade</p>
+            </div>
+        </div>
+    </footer> 
+    <script src="script/script.js"></script>
+</body>
+</html>

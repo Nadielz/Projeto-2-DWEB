@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="../img/favicon.png">
+    <title>Fale Conosco</title>
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+    <link rel="stylesheet" type="text/css" href="../css/elementos.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <script src="https://kit.fontawesome.com/e687650862.js" crossorigin="anonymous"></script>
+    <script type="module" src="../script/redirecionar.js"></script>
+    <script type="module" src="../script/faleconosco.js"></script>
+
+</head>
+<body>
+    <header>
+        <nav class="nav">
+            <span class="logo">Dice's</span>  
+                <button class="hamburguer"></button>
+                <ul class="menu">
+                    <li><a href="../index.html">Home</a></li>
+                    <li><a href="produtos.html">Produtos</a></li>
+                    <li><a href="fale.html">Fale Conosco</a></li>
+                    <li><a href="sobre.html">Sobre</a></li>
+                    <li><a href="login.html"><span class="material-symbols-outlined">
+                        account_circle
+                        </span></a></li>
+                    <li><a href="carrinho.html"><span class="material-symbols-outlined">
+                        shopping_cart
+                        </span></a></li>
+                    <li><a href="https://github.com/Nadielz/Projeto-2-DWEB/tree/master"><i class="fa-brands fa-github"></i></a></li>
+                </ul>
+        </nav>
+    </header>
+
+
+    <main>
+        <div class="form-container">
+
+            <header class="form-texto">
+                <h2 class="forms-titulo">Não achou o que procurava?</h2>
+                <p class="forms-descricao">Nos envie uma mensagem que entraremos em contato!</p>
+            </header>
+
+            <form id="form-fale" class="form-fale">
+                <div class="campo-input">
+                    <label>Nome completo</label>
+                    <input type="text" name="nome" id="nome" placeholder="Digite seu nome" autocomplete="name" required>
+                </div>
+            
+                <div class="campo-input">
+                    <label>Email</label>
+                    <input type="email" name="email" id="email" placeholder="Digite seu email" autocomplete="email" required>
+                </div>
+            
+                <div class="campo-input">
+                    <label>Telefone (com DDD)</label>
+                    <input type="tel" name="celular" id="celular" placeholder="Digite seu telefone" autocomplete="tel" required pattern="[0-9]{2}[0-9]{5}[0-9]{4}">
+                </div>
+            
+                <div class="campo-input">
+                    <label>Mensagem</label>
+                    <textarea name="message" rows="10"></textarea>
+                </div>
+            
+                <input class="enviar-fale" type="submit" value="Enviar">
+            </form>
+            
+        </div>
+    </main>
+
+    <footer>
+        <div class="container-footer">
+            <div>
+            <p>+55 (11) 4321-4532</p>
+            <P>Rua Lorem dolor sit - Nº 32 - Lorem Ipsum - SP</P>
+            <p>Feito por Daniel Andrade</p>
+            </div>
+        </div>
+    </footer> 
+
+    <script src="../script/script.js"></script>
+</body>
+</html>

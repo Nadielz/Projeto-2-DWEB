@@ -1,0 +1,41 @@
+
+.carrinho {
+    padding: 1.5rem;
+}
+
+.item-carrinho {
+    display: flex;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 0.25rem;
+}
+
+.item-carrinho img {
+    width: 6.25rem;
+    height: 6.25;
+    object-fit: cover;
+    margin-right: 0.5rem;
+}
+
+.item-carrinho div {
+    flex: 1;
+}
+
+.total {
+    margin-top: 2rem;
+    font-size: 1.2em;
+}
+
+.btn {
+    padding: 0.5rem;
+    background-color: #23181A;
+    color: #FFF2E7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.carrinho>h1{
+    color:#23181A;
+}
